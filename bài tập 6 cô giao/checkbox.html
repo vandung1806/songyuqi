@@ -1,0 +1,23 @@
+<html>
+
+<head>
+	<title>Checkbox</title>
+</head>
+
+<body>
+<!--gửi dữ liệu lên server -->
+	<form action="http://www.example.com/profile.php">
+		<p>Please select your favorite music service(s):
+			<br />
+<!--			checkbox sử dụng để người dùng có thể lựa chọn nhiều giá trị trong một danh sách các giá trị-->
+<!--			name xác định tên-->
+<!--			value chỉ định một giá trị cho phần tử -->
+<!--			checked đánh dấu trước một lựa chọn-->
+			<input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+			<input type="checkbox" name="service" value="lastfm" /> Last.fm
+			<input type="checkbox" name="service" value="spotify" /> Spotify
+		</p>
+	</form>
+</body>
+
+</html>

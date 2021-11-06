@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Multiple Select Box</title>
+</head>
+
+<body>
+<!--gửi dữ liệu lên servel-->
+  <form action="http://www.example.com/profile.php">
+<!--      văn bản -->
+    <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac while selecting different options.)</p>
+<!--  select được dùng để tạo một danh sách chọn lựa (danh sách thả xuống)-->
+<!--  multiple cho phép chọn nhiều tập tin cùng một lúc-->
+    <select name="instruments" size="3" multiple="multiple">
+<!--        option định nghĩa các tùy chọn trong một danh sách drop-down.-->
+<!--        selected được dùng để tạo một danh sách chọn lựa (danh sách thả xuống)-->
+				<option value="guitar" selected="selected">Guitar</option>
+<!--        value chỉ định một giá trị của một phần tử -->
+				<option value="drums">Drums</option>
+<!--        value chỉ định một giá trị của một phần tử-->
+<!--        selected được dùng để tạo một danh sách chọn lựa (danh sách thả xuống)-->
+				<option value="keyboard" selected="selected">Keyboard</option>
+<!--        value chỉ định một giá trị của một phần tử-->
+				<option value="bass">Bass</option>
+			</select>
+  </form>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<html>
+
+<head>
+	<title>File Input Box</title>
+</head>
+
+<body>
+<!--gửi dữ liệu lên server-->
+	<form action="http://www.example.com/upload.php" method="post">
+		<p>Upload your song in MP3 format:</p>
+<!--		biểu diễn một trường hợp input mà người dùng có thể nhập dữ liệu -->
+<!--		type đăng tải tệp cho ứng dụng web-->
+		<input type="file" name="user-song" /><br />
+<!--		submit Dùng để gửi dữ liệu lên server, dữ liệu được gửi thông qua thuộc tính action-->
+<!--		valua chỉ định một giá trị cho phần yuwr -->
+		<input type="submit" value="Upload" />
+	</form>
+</body>
+
+</html>

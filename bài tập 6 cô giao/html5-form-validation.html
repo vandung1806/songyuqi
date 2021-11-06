@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>HTML5 Form Validation</title>
+	</head>
+	<body>
+<!--	gửi dữ liệu lên server-->
+		<form action="http://www.example.com/login/" method="post">
+<!--			label định nghĩa nhãn cho phần tử-->
+			<label for="username">Username:</label>
+<!--			biểu diễn một trường hợp input mà trong đó người dùng có thể nhập dữ liệu -->
+<!--			text nhập văn bản với các thông tin-->
+<!--			Id là định danh của thẻ-->
+<!--			required buộc người dùng phải nhập dữ liệu thì mới gửi được-->
+			<input type="text" name="username" id="username" required="required" /><br />
+<!--			label định nghĩa nhã cho phần tử -->
+			<label for="password">Password:</label>
+<!--			Password các ký tự khi được nhập vào sẽ được hiển thị ở dạng dấu * để che dấu các ký tự nhập vào-->
+<!--			name xác định tên-->
+<!--			Id là định danh của thẻ-->
+			<input type="password" name="password" id="password" required="required" />
+<!--			submit Dùng để gửi dữ liệu lên server, dữ liệu được gửi thông qua thuộc tính action-->
+<!--			valua chỉ định một giá trị của phần tử -->
+			<input type="submit" value="Submit" />
+		</form>
+	</body>
+</html>

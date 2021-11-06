@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<title>Labelling Form Controls</title>
+</head>
+
+<body>
+<!--		gửi dữ liệu lên server -->
+	<form action="http://www.example.com/subscribe.php">
+<!--		laber định nghĩa nhãn cho phần tử-->
+<!--		text nhập văn bản với các thông tin -->
+		<label>Age: <input type="text" name="age" /></label>
+		<br/>
+		Gender:
+<!--		biễu diễn một trường hợp input nơi mà người dùng có thể nhập dữ liệu-->
+<!--		Id là định danh của thẻ-->
+<!--		radio lựa chọn duy nhất một giá trị trong danh sách các giá trị-->
+<!--		name tên của dữ liệu mẹ-->
+<!--		value chỉ định một giá trị của phần tử -->
+		<input id="female" type="radio" name="gender" value="f">
+<!--		laber định nghĩa nhãn cho phần tử-->
+		<label for="female">Female</label>
+<!--		biễu diễn một trường hợp input nơi mà người dùng có thể nhập dữ liệu-->
+<!--		Id là định danh của thẻ-->
+<!--		radio lựa chọn duy nhất một giá trị trong danh sách các giá trị-->
+<!--		name tên của dữ liệu mẹ-->
+<!--		value chỉ định một giá trị của phần tử-->
+		<input id="male" type="radio" name="gender" value="m">
+<!--		laber định nghĩa nhãn cho phần tử-->
+		<label for="male">Male</label>
+	</form>
+</body>
+
+</html>
